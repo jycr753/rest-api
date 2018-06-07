@@ -40,3 +40,9 @@
 ##2 - Administrator Panel application (https://github.com/TanvirAlam/rest-api-admin)
 
 ## API Bonus
+
+- HTTP methods (PUT, DELETE)
+- Validatio
+- Unit tests
+- Documentation (Api Readme.md and phpdoc)
+- Github
