@@ -18,7 +18,7 @@ class CreateOffersTable extends Migration
             $table->unsignedInteger('user_id')->nullable();
             $table->string('title');
             $table->text('description');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('image');
             $table->timestamps();
         });
