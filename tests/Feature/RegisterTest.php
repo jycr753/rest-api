@@ -27,10 +27,10 @@ class RegisterTest extends TestCase
     public function user_is_successfully_registered()
     {
         $payload = [
-            'name' => 'John',
-            'email' => 'john@toptal.com',
-            'password' => 'toptal123',
-            'password_confirmation' => 'toptal123',
+            'name' => 'Tanvir',
+            'email' => 'tanvir@tanvir.dk',
+            'password' => '123123',
+            'password_confirmation' => '123123',
         ];
 
         $response = $this->json('post', '/api/register', $payload)
